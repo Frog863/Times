@@ -1,0 +1,18 @@
+model_id: 'EthanolConcentration'
+model : 'TimesNet_Newcut'
+data_len    : 1751
+root_path : './data/EthanolConcentration/'
+num_kernels : 6
+d_model : 32
+d_ff : 32
+e_layers : 1
+learning_rate : 0.001
+input_size1 : 176
+input_size2 : 117
+input_size3 : 88
+hidden_size : 256
+num_layers : 1
+num_heads : 4
+cutpos : 5
+top_k  : 3
+cutnom : 1

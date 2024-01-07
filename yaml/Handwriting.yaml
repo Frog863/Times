@@ -1,0 +1,18 @@
+model_id: 'Handwriting'
+model : 'TimesNet_Newcut_tongdaoshijian'
+data_len    : 152
+root_path : './data/Handwriting/'
+num_kernels : 6
+d_model : 32
+d_ff : 32
+e_layers : 2
+learning_rate : 0.001
+input_size1 : 31  #5
+input_size2 : 19  #8
+input_size3 : 16  #10
+hidden_size : 256
+num_layers : 1
+num_heads : 4
+cutpos : 0
+top_k  : 3
+cutnom : 1

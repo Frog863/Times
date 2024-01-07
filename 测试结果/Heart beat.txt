@@ -1,0 +1,68 @@
+D:\Anaconda\envs\pytorch\python.exe D:\python_file\Timesnet\run.py 
+Args in experiment:
+Namespace(activation='gelu', anomaly_ratio=0.25, batch_size=16, c_out=8, checkpoints='./checkpoints/', cutnom=1, cutpos=0, d_ff=64, d_layers=1, d_model=64, data='UEA', data_len=405, data_path='exchange_rate.csv', dec_in=8, des='Exp', devices='0,1,2,3', distil=True, dropout=0.1, e_layers=2, embed='timeF', enc_in=8, factor=3, features='M', freq='h', gpu=0, hidden_size=256, individual=False, input_size1=41, input_size2=41, input_size3=41, is_training=1, itr=1, label_len=48, layer_k=3, learning_rate=0.001, loss='MSE', lradj='type1', mask_rate=0.25, model='times_dlinear1', model_id='Heartbeat', moving_avg=25, n_heads=8, num_heads=4, num_kernels=6, num_layers=1, num_workers=0, output_attention=False, p_hidden_dims=[128, 128], p_hidden_layers=2, patience=10, pred_len=96, root_path='./data/Heartbeat/', seasonal_patterns='Monthly', seq_len=96, target='OT', task_name='classification', top_k=3, train_epochs=30, use_amp=False, use_gpu=True, use_multi_gpu=False)
+Use GPU: cuda:0
+204
+205
+>>>>>>>start training : classification_Heartbeat_times_dlinear1_UEA_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df64_fc3_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+204
+205
+205
+Epoch: 1 cost time: 8.19967532157898
+Epoch: 1, Steps: 13 | Train Loss: 2.948 Vali Loss: 0.739 Vali Acc: 0.737 Test Loss: 0.711 Test Acc: 0.741
+Validation loss decreased (inf --> -0.736585).  Saving model ...
+Epoch: 2 cost time: 6.7220916748046875
+Epoch: 2, Steps: 13 | Train Loss: 0.945 Vali Loss: 0.879 Vali Acc: 0.702 Test Loss: 0.937 Test Acc: 0.737
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 6.5124688148498535
+Epoch: 3, Steps: 13 | Train Loss: 1.216 Vali Loss: 2.853 Vali Acc: 0.449 Test Loss: 2.615 Test Acc: 0.493
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 6.785305500030518
+Epoch: 4, Steps: 13 | Train Loss: 2.581 Vali Loss: 5.183 Vali Acc: 0.293 Test Loss: 5.172 Test Acc: 0.293
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 6.802219867706299
+Epoch: 5, Steps: 13 | Train Loss: 0.838 Vali Loss: 2.292 Vali Acc: 0.727 Test Loss: 2.328 Test Acc: 0.756
+EarlyStopping counter: 4 out of 10
+Updating learning rate to 6.25e-05
+Epoch: 6 cost time: 6.729154586791992
+Epoch: 6, Steps: 13 | Train Loss: 0.251 Vali Loss: 1.316 Vali Acc: 0.766 Test Loss: 1.358 Test Acc: 0.766
+Validation loss decreased (-0.736585 --> -0.765854).  Saving model ...
+Epoch: 7 cost time: 6.803512334823608
+Epoch: 7, Steps: 13 | Train Loss: 0.074 Vali Loss: 1.238 Vali Acc: 0.722 Test Loss: 1.175 Test Acc: 0.732
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 6.637759447097778
+Epoch: 8, Steps: 13 | Train Loss: 0.075 Vali Loss: 1.255 Vali Acc: 0.741 Test Loss: 1.276 Test Acc: 0.737
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 6.620874881744385
+Epoch: 9, Steps: 13 | Train Loss: 0.042 Vali Loss: 1.024 Vali Acc: 0.727 Test Loss: 1.068 Test Acc: 0.727
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 6.787989377975464
+Epoch: 10, Steps: 13 | Train Loss: 0.067 Vali Loss: 1.177 Vali Acc: 0.727 Test Loss: 1.143 Test Acc: 0.722
+EarlyStopping counter: 4 out of 10
+Updating learning rate to 1.953125e-06
+Epoch: 11 cost time: 6.890416145324707
+Epoch: 11, Steps: 13 | Train Loss: 0.024 Vali Loss: 1.143 Vali Acc: 0.712 Test Loss: 1.212 Test Acc: 0.732
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 6.794469356536865
+Epoch: 12, Steps: 13 | Train Loss: 0.036 Vali Loss: 1.144 Vali Acc: 0.737 Test Loss: 1.264 Test Acc: 0.732
+EarlyStopping counter: 6 out of 10
+Epoch: 13 cost time: 6.7909369468688965
+Epoch: 13, Steps: 13 | Train Loss: 0.028 Vali Loss: 1.249 Vali Acc: 0.717 Test Loss: 1.100 Test Acc: 0.732
+EarlyStopping counter: 7 out of 10
+Epoch: 14 cost time: 6.456815481185913
+Epoch: 14, Steps: 13 | Train Loss: 0.028 Vali Loss: 1.174 Vali Acc: 0.741 Test Loss: 1.133 Test Acc: 0.732
+EarlyStopping counter: 8 out of 10
+Epoch: 15 cost time: 6.627868890762329
+Epoch: 15, Steps: 13 | Train Loss: 0.026 Vali Loss: 1.171 Vali Acc: 0.727 Test Loss: 1.173 Test Acc: 0.741
+EarlyStopping counter: 9 out of 10
+Updating learning rate to 6.103515625e-08
+Epoch: 16 cost time: 6.7685205936431885
+Epoch: 16, Steps: 13 | Train Loss: 0.035 Vali Loss: 1.182 Vali Acc: 0.722 Test Loss: 1.140 Test Acc: 0.732
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_Heartbeat_times_dlinear1_UEA_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df64_fc3_ebtimeF_dtTrue_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+205
+test shape: torch.Size([205, 2]) torch.Size([205, 1])
+accuracy:0.7707317073170732
+
+Process finished with exit code 0

@@ -1,0 +1,18 @@
+model_id: 'FaceDetection'
+model : 'TimesNet_Newcut'
+data_len    : 62
+root_path : './data/FaceDetection/'
+num_kernels : 4
+d_model : 64
+d_ff : 256
+e_layers : 3
+learning_rate : 0.001
+input_size1 : 13
+input_size2 : 9
+input_size3 : 7
+hidden_size : 512
+num_layers : 1
+num_heads : 8
+cutpos : 0
+top_k  : 3
+cutnom : 1

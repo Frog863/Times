@@ -1,0 +1,9 @@
+long_term_forecast_test_Autoformer_ETTh1_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.48207682371139526, mae:0.47147202491760254
+
+long_term_forecast_Exchange_96_96_times_dlinear1_custom_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df64_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.10820085555315018, mae:0.23581796884536743
+
+long_term_forecast_Exchange_96_96_times_dlinear1_custom_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df64_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.0874752476811409, mae:0.212127223610878
+
