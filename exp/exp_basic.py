@@ -4,7 +4,7 @@ from Timesnet.models import Autoformer, Transformer, TimesNet, Nonstationary_Tra
     Informer, LightTS, Reformer, ETSformer, Pyraformer, PatchTST, MICN, Crossformer, FiLM, times_dlinear1,times_dlinear2,TimesNet_Newcut,Transformer_new,TimesNet_Newcut_tongdaoshijian
 
 
-class Exp_Basic(object):
+class Exp_Basic(object):#基类，且不用非得显示写出等价于class Exp_Basic
     def __init__(self, args):
         self.args = args
         self.model_dict = {

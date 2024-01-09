@@ -15,7 +15,7 @@ warnings.filterwarnings('ignore')
 
 class Exp_Classification(Exp_Basic):
     def __init__(self, args):
-        super(Exp_Classification, self).__init__(args)
+        super(Exp_Classification, self).__init__(args)#继承父类方法
 
     def _build_model(self):
         # model input depends on data

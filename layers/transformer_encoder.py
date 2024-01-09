@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from IPython import embed
 import math
+embed()
 class TransformerEncoder(nn.Module):
     def __init__(self, input_size, hidden_size, num_layers, num_heads, dropout_rate):
         super(TransformerEncoder, self).__init__()
